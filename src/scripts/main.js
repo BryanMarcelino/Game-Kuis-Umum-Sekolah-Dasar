@@ -8,15 +8,22 @@ var hash = require('bespoke-hash');
 var prism = require('bespoke-prism');
 var multimedia = require('bespoke-multimedia');
 var extern = require('bespoke-extern');
+var backdrop = require('bespoke-backdrop');
+var cube = require('bespoke-theme-cube');
+var nebula = require('bespoke-theme-nebula');
+var voltaire = require('bespoke-theme-voltaire');
+
 
 // Bespoke.js
 bespoke.from({ parent: 'article.deck', slides: 'section' }, [
-  classes(),
-  nav(),
-  scale(),
-  bullets('.build, .build-items > *:not(.build-items)'),
-  hash(),
-  prism(),
-  multimedia(),
-  extern(bespoke)
+    classes(),
+    nav(),
+    scale(),
+    bullets('.build, .build-items > *:not(.build-items)'),
+    hash(),
+    prism(),
+    multimedia(),
+    extern(bespoke),
+    backdrop(),
+    nebula()
 ]);
