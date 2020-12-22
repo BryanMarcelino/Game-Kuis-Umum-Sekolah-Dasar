@@ -513,8 +513,7 @@ aside[role=note],
 aside[role=notes] {
   display: none;
 }
-
 #interkoneksi-bus {
-    width:100%;
-    height:60%;
+  width: 100%;
+  height: 60%;
 }
