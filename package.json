@@ -38,6 +38,8 @@
   },
   "dependencies": {
     "bespoke-backdrop": "^1.0.0",
+    "bespoke-theme-atomantic": "^3.0.1",
+    "bespoke-theme-carousel": "^0.1.1",
     "bespoke-theme-cube": "^2.0.1",
     "bespoke-theme-nebula": "^1.0.1",
     "bespoke-theme-voltaire": "^1.0.1"
