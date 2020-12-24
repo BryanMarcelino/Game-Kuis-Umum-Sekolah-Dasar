@@ -12,6 +12,7 @@ var backdrop = require('bespoke-backdrop');
 var cube = require('bespoke-theme-cube');
 var nebula = require('bespoke-theme-nebula');
 var voltaire = require('bespoke-theme-voltaire');
+var atomantic = require('bespoke-theme-atomantic')
 
 
 // Bespoke.js
@@ -25,5 +26,5 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
     multimedia(),
     extern(bespoke),
     backdrop(),
-    nebula()
+    atomantic
 ]);
